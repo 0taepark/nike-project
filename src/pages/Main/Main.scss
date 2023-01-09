@@ -1,0 +1,168 @@
+@import '/src/styles/variables.scss';
+
+.main {
+  margin: 50px;
+
+  .video {
+    @include flexCenter;
+  }
+
+  .videoTextContainer {
+    @include flexCenter;
+    flex-direction: column;
+    margin: 20px;
+
+    .infoHeader {
+      font-size: 60px;
+      font-weight: $font-weight-bold;
+      margin: 20px;
+    }
+
+    .infoMain {
+      font-size: 30px;
+      margin: 20px;
+    }
+
+    .videoButton {
+      margin: 40px 20px;
+
+      .btn {
+        padding: 10px 40px;
+        border-radius: 40px;
+        background-color: $font-color-black;
+        color: $font-color-white;
+        font-size: 30px;
+        &:hover {
+          background-color: $font-color-grey;
+          color: $font-color-black;
+        }
+      }
+
+      .buyButton {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .categoryText {
+    font-size: $font-size-xl;
+    color: $font-color-black;
+    margin: 20px 0;
+  }
+
+  .defaultText {
+    font-size: $font-size-lg;
+    color: $font-color-grey;
+    margin: 10px 0;
+  }
+
+  .firstImgTitle {
+    margin-bottom: 20px;
+  }
+
+  .firstImgContainer {
+    @include flexCenter;
+    margin-bottom: 20px;
+
+    .firstImgBox {
+      width: 50%;
+      height: 1020px;
+      margin: 20px 20px 0 0;
+      background-image: url(../../../public/image/main/IMG4674.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .secondImgBox {
+      margin-top: 20px;
+      width: 50%;
+
+      .secondImg {
+        background-image: url(../../../public/image/main/AnyConv.com__IMG_1066.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+      }
+
+      .mainThirdImg {
+        background-image: url(../../../public/image/main/AnyConv.com__IMG_1063.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        margin: 20px 20px 0 0;
+      }
+    }
+  }
+
+  .secondImgTitle {
+    margin: 40px 0;
+  }
+
+  .secondImgContainer {
+    @include flexCenter;
+
+    .firstImgBox {
+      width: 50%;
+      height: 800px;
+      margin-right: 20px;
+      background-image: url(../../../public/image/main/a.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .secondImgBox {
+      width: 50%;
+      height: 800px;
+      background-image: url(../../../public/image/main/b.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  .thirdImgTitle {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 40px 0;
+    color: $font-color-black;
+    font-size: 30px;
+  }
+
+  .thirdTitle {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      height: 20px;
+    } /* 스크롤 바 */
+
+    &::-webkit-scrollbar-track {
+      background-color: $font-color-white;
+    } /* 스크롤 바 밑의 배경 */
+
+    &::-webkit-scrollbar-thumb {
+      background: #ddd;
+      border-radius: 10px;
+    }
+
+    .thirdImgBox {
+      margin-right: 20px;
+
+      .mb40 {
+        margin-bottom: 40px;
+      }
+
+      .thirdImg {
+        width: 550px;
+        height: 500px;
+      }
+    }
+  }
+}

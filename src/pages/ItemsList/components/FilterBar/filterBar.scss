@@ -1,0 +1,35 @@
+@import '/src/styles/variables.scss';
+@import '/src/pages/ItemsList/variablesForItemList.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.filterBar {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  width: $fixedWidth;
+  min-width: 274px;
+  height: 95%;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  overflow-y: scroll;
+  transition: 0.4s;
+  transform: translateX(0);
+
+  /* 스크롤바 설정*/
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* 스크롤바 막대 설정*/
+  &::-webkit-scrollbar-thumb {
+    background-color: gray;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;
+  }
+
+  /* 스크롤바 뒷 배경 설정*/
+  &::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,52 @@
+@import '/src/styles/variables.scss';
+@import '/src/pages/ItemsList/variablesForItemList.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.filterSize {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 10px;
+  margin-bottom: 15px;
+
+  .sizeHeader {
+    @include flexSort(space-between, center);
+    .sizeText {
+      padding-top: 7px;
+      font-weight: 1000;
+    }
+    .sizeIcon {
+      margin-right: 9px;
+      height: 14px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .sizeNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    transition: 0.4s;
+
+    .sizeNumber {
+      @include flexCenter;
+      width: 46px;
+      height: 37px;
+      margin: 2px;
+      padding: 4px;
+      border: 1px solid #e5e5e5;
+      border-radius: 7px;
+      font-size: 12px;
+
+      &:hover {
+        border: 2px solid black;
+        cursor: pointer;
+      }
+    }
+
+    .selected {
+      border: 1px solid black;
+    }
+  }
+}

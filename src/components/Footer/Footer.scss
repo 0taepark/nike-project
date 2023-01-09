@@ -1,0 +1,86 @@
+@import '/src/styles/variables.scss';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
+
+.footer {
+  border-top: 2px solid grey;
+  background-color: $font-color-black;
+
+  .categoryText {
+    display: block;
+    color: white;
+    padding: 20px 10px;
+  }
+
+  .defaultText {
+    display: block;
+    color: $font-color-grey;
+    padding: 10px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
+
+    .topItem {
+      .defaultText {
+        &:first-child {
+          padding: 20px 10px;
+          color: $font-color-white;
+        }
+      }
+    }
+
+    .topIconBox {
+      display: flex;
+
+      .fa-brands {
+        @include flexCenter;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin-left: 10px;
+        font-size: 20px;
+        color: $background-color-black;
+        background-color: $font-color-grey;
+      }
+    }
+  }
+
+  .center {
+    @include flexSort(space-between, center);
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+
+    .centerBox {
+      display: flex;
+      align-items: center;
+      margin: 0 50px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+
+    .bottomBox {
+      width: 500px;
+      margin: 20px;
+
+      .bottomCategoryText {
+        color: white;
+        padding: 10px 10px;
+      }
+
+      .bottomDefaultText {
+        color: $font-color-grey;
+        padding: 10px 0 10px 0;
+
+        .textUnderBar {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

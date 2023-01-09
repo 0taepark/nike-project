@@ -1,0 +1,28 @@
+li {
+  .sizeButton {
+    &:disabled + label {
+      background: #f7f7f7;
+      color: #e5e5e5;
+    }
+  }
+  input[type='radio'] + label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    cursor: pointer;
+    height: 49px;
+    width: 73px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  input[type='radio'] + label {
+    background-color: white;
+    color: #333;
+  }
+  input[type='radio']:checked + label {
+    background-color: #333;
+    color: #fff;
+  }
+}

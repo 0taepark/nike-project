@@ -1,0 +1,79 @@
+@import '/src/styles/variables.scss';
+
+.signUp {
+  @include flexCenter;
+  flex-direction: column;
+  margin: 100px 0;
+
+  .signUpTitle {
+    margin-bottom: 20px;
+    font-size: $font-size-xl;
+    font-weight: $font-weight-title;
+  }
+
+  .signUpInfo {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: $font-size-base;
+    color: $background-color-grey;
+  }
+
+  #signUpContainer {
+    @include flexCenter;
+    flex-direction: column;
+
+    .signUpInput {
+      display: block;
+      width: 500px;
+      height: 50px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+
+      font-size: $font-size-lg;
+    }
+
+    .genderCheckBox {
+      display: flex;
+      margin-bottom: 20px;
+
+      .gender {
+        display: block;
+        width: 240px;
+        margin: 0 10px;
+        padding: 15px 90px;
+        font-size: $font-size-lg;
+        color: $background-color-grey;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid black;
+      }
+
+      #woman,
+      #man {
+        display: none;
+      }
+
+      .checkMan,
+      .checkWoman {
+        display: block;
+        width: 240px;
+        margin: 0 10px;
+        padding: 15px 90px;
+        font-size: $font-size-lg;
+        color: $background-color-white;
+        text-align: center;
+        cursor: pointer;
+        background-color: black;
+      }
+    }
+
+    .signUpButton {
+      width: 500px;
+      height: 50px;
+      border: 1px solid $background-color-grey;
+      font-size: $font-size-lg;
+      color: $background-color-white;
+      background-color: $background-color-black;
+    }
+  }
+}

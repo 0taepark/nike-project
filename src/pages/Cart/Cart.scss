@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
+
+.cartHeader {
+  @include flexCenter;
+  flex-direction: column;
+
+  .cartTitle {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: $font-weight-semibold;
+  }
+
+  .cartItemsCount {
+    margin: 25px 0;
+    font-size: $font-size-xl;
+    color: $font-color-grey;
+  }
+}
+
+.optOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}

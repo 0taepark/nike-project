@@ -1,0 +1,25 @@
+@import '/src/styles/variables.scss';
+@import '/src/pages/ItemsList/variablesForItemList.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.filterBarColor {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+  margin-bottom: 15px;
+
+  .colorHeader {
+    @include flexSort(space-between, center);
+    .colorText {
+      padding-top: 7px;
+      font-weight: 1000;
+    }
+    .colorIcon {
+      height: 14px;
+      margin-right: 9px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

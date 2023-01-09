@@ -1,0 +1,79 @@
+@import '../../../styles/variables.scss';
+
+.cartAside {
+  min-width: 350px;
+
+  .cartCheckoutWrapper {
+    flex-direction: column;
+    border: 1px, solid $background-color-darkgrey;
+
+    .checkoutTitle {
+      padding: 17px 0 17px 10px;
+      background-color: $background-color-darkgrey;
+      font-weight: $font-weight-bold;
+      font-size: $font-size-sm;
+    }
+
+    .checkoutDetail {
+      font-size: $font-size-sm;
+      line-height: 2.5em;
+      padding: 17px;
+      border: 1px solid $background-color-darkgrey;
+      font-weight: $font-weight-semibold;
+
+      .detail {
+        display: flex;
+        justify-content: space-between;
+      }
+      .cartPrice {
+        color: $font-color-red;
+      }
+    }
+
+    .totalPrice {
+      margin-top: 0.5em;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-semibold;
+    }
+
+    .checkoutOrderBtn {
+      width: 100%;
+      margin-top: 0.8em;
+      padding: 10px 0;
+      background-color: $font-color-red;
+      color: rgb(255, 255, 255);
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .coupon {
+    margin-top: 2em;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-xs;
+
+    .inputCoupon {
+      height: 50px;
+      width: 100%;
+      margin-top: 25px;
+      border: 1px solid $background-color-darkgrey;
+
+      .couponCode {
+        border: none;
+        outline: none;
+        width: 70%;
+        font-size: $font-size-xs;
+      }
+
+      .couponBtn {
+        width: 30%;
+        height: 50px;
+        border-left: 1px solid $background-color-darkgrey;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}

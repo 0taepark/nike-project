@@ -1,0 +1,152 @@
+{
+  "brandId": 2,
+  "brandName": "나이키 스포츠웨어",
+  "images": [
+    {
+      "productId": 2,
+      "imageUrl": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_1.jpg"
+    },
+    {
+      "productId": 2,
+      "imageUrl": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_2.jpg"
+    },
+    {
+      "productId": 2,
+      "imageUrl": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_3.jpg"
+    },
+    {
+      "productId": 2,
+      "imageUrl": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_4.jpg"
+    },
+    {
+      "productId": 2,
+      "imageUrl": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_5.jpg"
+    },
+    {
+      "productId": 2,
+      "imageUrl": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_6.jpg"
+    }
+  ],
+  "productOptions": [
+    {
+      "productOptionId": 25,
+      "size": "220",
+      "stock": 0
+    },
+    {
+      "productOptionId": 26,
+      "size": "225",
+      "stock": 5
+    },
+    {
+      "productOptionId": 27,
+      "size": "230",
+      "stock": 20
+    },
+    {
+      "productOptionId": 28,
+      "size": "235",
+      "stock": 0
+    },
+    {
+      "productOptionId": 29,
+      "size": "240",
+      "stock": 5
+    },
+    {
+      "productOptionId": 30,
+      "size": "245",
+      "stock": 20
+    },
+    {
+      "productOptionId": 31,
+      "size": "250",
+      "stock": 0
+    },
+    {
+      "productOptionId": 32,
+      "size": "255",
+      "stock": 5
+    },
+    {
+      "productOptionId": 33,
+      "size": "260",
+      "stock": 20
+    },
+    {
+      "productOptionId": 34,
+      "size": "265",
+      "stock": 0
+    },
+    {
+      "productOptionId": 35,
+      "size": "270",
+      "stock": 5
+    },
+    {
+      "productOptionId": 36,
+      "size": "275",
+      "stock": 20
+    },
+    {
+      "productOptionId": 37,
+      "size": "280",
+      "stock": 0
+    },
+    {
+      "productOptionId": 38,
+      "size": "285",
+      "stock": 5
+    },
+    {
+      "productOptionId": 39,
+      "size": "290",
+      "stock": 20
+    },
+    {
+      "productOptionId": 40,
+      "size": "295",
+      "stock": 0
+    },
+    {
+      "productOptionId": 41,
+      "size": "300",
+      "stock": 5
+    },
+    {
+      "productOptionId": 42,
+      "size": "305",
+      "stock": 20
+    },
+    {
+      "productOptionId": 43,
+      "size": "310",
+      "stock": 0
+    },
+    {
+      "productOptionId": 44,
+      "size": "320",
+      "stock": 5
+    },
+    {
+      "productOptionId": 45,
+      "size": "330",
+      "stock": 20
+    },
+    {
+      "productOptionId": 46,
+      "size": "340",
+      "stock": 0
+    },
+    {
+      "productOptionId": 47,
+      "size": "350",
+      "stock": 5
+    },
+    {
+      "productOptionId": 48,
+      "size": "360",
+      "stock": 20
+    }
+  ]
+}

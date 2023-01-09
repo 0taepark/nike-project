@@ -1,0 +1,36 @@
+.modalContentBox {
+  .modalImg {
+    width: 50px;
+  }
+  .modalInfo {
+    width: 150px;
+
+    .modalDetailName {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .retailPriceBox {
+      text-decoration: line-through;
+    }
+
+    .modalDetailName.price0 {
+      .modalDiscountPrice {
+        display: none;
+      }
+
+      .modalDiscountRatio {
+        display: none;
+      }
+
+      .retailPriceBox {
+        text-decoration: none;
+      }
+    }
+
+    .modalDiscountRatio,
+    .modalDiscountPrice {
+      color: coral;
+    }
+  }
+}

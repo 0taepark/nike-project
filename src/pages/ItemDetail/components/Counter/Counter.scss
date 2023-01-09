@@ -1,0 +1,22 @@
+.counter {
+  display: inline-flex;
+
+  .countStart {
+    margin-left: 20px;
+  }
+  .count {
+    display: flex;
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  h1 {
+    display: inline-flex;
+  }
+
+  .countOn {
+    padding: 0 15px 0 15px;
+    display: block;
+  }
+}

@@ -1,0 +1,116 @@
+@import '/src/styles/variables.scss';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
+
+.loginWrapper {
+  @include flexCenter;
+  position: fixed;
+  inset: 0;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 999;
+
+  .login {
+    @include flexCenter;
+    text-align: center;
+    background-color: $font-color-grey;
+    padding: 20px 20px 50px 20px;
+    background-color: white;
+    order: 2;
+
+    .loginIcon {
+      margin: 20px;
+      font-size: $font-size-xl;
+    }
+
+    .loginTitle {
+      margin-bottom: 30px;
+      font-size: $font-size-xl;
+    }
+
+    .loginId {
+      width: 450px;
+      padding: 10px 10px;
+    }
+
+    .loginPw {
+      width: 450px;
+      padding: 10px 10px;
+    }
+
+    .block {
+      display: block;
+      margin: auto;
+      margin-bottom: 30px;
+      font-size: $font-size-lg;
+    }
+
+    .loginModalDelete {
+      margin: 0 0 10px 480px;
+
+      .fa-solid {
+        padding: 10px;
+        font-size: 16px;
+
+        &:hover {
+          padding: 10px;
+          border-radius: 50%;
+          background-color: lightgrey;
+        }
+      }
+    }
+
+    .loginHelp {
+      @include flexSort(space-between, center);
+      .checkBox {
+        transform: scale(2);
+        margin-right: 15px;
+      }
+    }
+
+    .loginButton {
+      width: 450px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: $background-color-black;
+      color: white;
+    }
+
+    .loginKakao {
+      width: 450px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: rgb(251, 237, 93);
+
+      .fa-message {
+        position: absolute;
+        display: flex;
+        padding-top: 3px;
+      }
+    }
+
+    .loginFacebook {
+      width: 450px;
+      padding: 10px 10px;
+      border-radius: 5px;
+      background-color: rgb(47, 82, 134);
+      color: $font-color-white;
+
+      .fa-facebook-f {
+        position: absolute;
+        display: flex;
+        padding-top: 3px;
+      }
+    }
+
+    .signInCheck {
+      color: $font-color-grey;
+
+      .signIn {
+        color: $background-color-black;
+        text-decoration: underline;
+      }
+    }
+  }
+}

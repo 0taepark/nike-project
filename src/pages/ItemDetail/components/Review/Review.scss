@@ -1,0 +1,63 @@
+.reviewRatioWrap {
+  line-height: 40px;
+  font-size: 13px;
+  padding-bottom: 20px;
+
+  .reviewTop {
+    font-weight: 600;
+  }
+  .reviewRatio {
+    width: 100%;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    height: 5px;
+    .reviewPointFirst {
+      width: 14px;
+      height: 5px;
+      border-radius: 5px;
+      background-color: black;
+      margin-left: 50%;
+    }
+    .reviewPointSecond {
+      width: 14px;
+      height: 5px;
+      border-radius: 5px;
+      background-color: black;
+      margin-left: 80%;
+    }
+    .reviewPointThird {
+      width: 14px;
+      height: 5px;
+      border-radius: 5px;
+      background-color: black;
+      margin-left: 30%;
+    }
+    .reviewPointFourth {
+      width: 14px;
+      height: 5px;
+      border-radius: 5px;
+      background-color: black;
+      margin-left: 60%;
+    }
+  }
+  .reviewDetailRatio {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.reviewWrap {
+  padding-bottom: 50px;
+  .reviewBox {
+    width: 80%;
+    font-size: 13px;
+    color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+  }
+  .reviewContent {
+    font-size: 14px;
+    width: 90%;
+  }
+}

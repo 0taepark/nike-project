@@ -1,0 +1,16 @@
+@import '/src/styles/variables.scss';
+@import '/src/pages/ItemsList/variablesForItemList.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.contentNext {
+  @include flexCenter;
+  width: 130px;
+  height: 43px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  .text {
+    padding-top: 4px;
+    font-size: 20px;
+  }
+}

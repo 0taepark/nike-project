@@ -1,0 +1,130 @@
+@import '/src/styles/variables.scss';
+@import '/src/pages/ItemsList/variablesForItemList.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.contentItems {
+  width: 100%;
+
+  .contentItemContainor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+
+    .contentItem {
+      width: 33.333%;
+      padding: 10px;
+      margin-bottom: 50px;
+
+      &:nth-child(1) {
+        height: 0px;
+      }
+
+      &:nth-child(2) {
+        order: -1;
+      }
+
+      .itemImg {
+        @include flexCenter;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background-size: cover;
+
+        img {
+          width: 100%;
+          vertical-align: middle;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+
+        .itemDecription {
+          position: absolute;
+          top: 5%;
+          left: 1%;
+          width: 100%;
+          opacity: 0;
+          transition: 0.3s;
+        }
+
+        &:hover {
+          img {
+            opacity: 0.4;
+          }
+
+          .itemDecription {
+            opacity: 1;
+          }
+        }
+      }
+
+      .itemDetails {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-top: 10px;
+
+        .detail {
+          margin-bottom: 7px;
+        }
+
+        .itemDetailLeft {
+          .productName {
+            font-size: 15px;
+            font-weight: 900;
+          }
+
+          .description {
+            color: gray;
+          }
+
+          .brandName {
+            color: gray;
+          }
+
+          .color {
+            color: gray;
+          }
+        }
+
+        .itemDetailRight {
+          display: flex;
+          justify-content: flex-end;
+
+          .discountRatio {
+            color: #ff6600;
+            font-size: 20px;
+          }
+
+          .price {
+            margin-left: 15px;
+
+            .retailPrice {
+              color: gray;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+
+      .video {
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        video {
+          min-width: 300%;
+          max-height: 80%;
+        }
+
+        .videoText {
+          z-index: 999;
+        }
+      }
+    }
+  }
+}

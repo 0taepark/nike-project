@@ -1,0 +1,12 @@
+@import '/src/styles/variables.scss';
+@import '/src/pages/ItemsList/variablesForItemList.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+  width: 100%;
+  transition: 0.4s;
+}

@@ -1,0 +1,29 @@
+@import '../../../styles/variables.scss';
+
+.cartIsNull {
+  @include flexCenter;
+
+  .emptyCart {
+    @include flexSort(space-around, center);
+    flex-direction: column;
+    width: 80%;
+    height: 350px;
+    padding: 40px;
+    border-top: 1px solid $background-color-darkgrey;
+    border-bottom: 1px solid $background-color-darkgrey;
+  }
+
+  .fa-bag-shopping {
+    font-size: 60px;
+  }
+
+  .cartNullDes {
+    font-size: $font-size-xl;
+  }
+
+  .cartKeepShopping {
+    padding: 1em 1.8em;
+    color: $font-color-white;
+    background-color: $background-color-black;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "result": [
+    {
+      "cartId": 31,
+      "userId": 3,
+      "styleCode": "921826-001",
+      "quantity": 4,
+      "productOptionId": 26,
+      "productId": 2,
+      "productName": "나이키 에어맥스 97",
+      "sizeId": 2,
+      "size": "225",
+      "stock": 5,
+      "retailPrice": "199000",
+      "discountPrice": "0",
+      "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_1.jpg"
+    },
+    {
+      "cartId": 33,
+      "userId": 3,
+      "styleCode": "921826-101",
+      "quantity": 1,
+      "productOptionId": 11,
+      "productId": 1,
+      "productName": "나이키 에어맥스 97",
+      "sizeId": 11,
+      "size": "270",
+      "stock": 5,
+      "retailPrice": "210000",
+      "discountPrice": "140000",
+      "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-101_1.jpg"
+    }
+  ]
+}

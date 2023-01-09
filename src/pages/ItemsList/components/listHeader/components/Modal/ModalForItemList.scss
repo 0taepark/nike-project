@@ -1,0 +1,43 @@
+.modalForItemList {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 9999;
+
+  .modalContent {
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+    width: 500px;
+
+    .modalList {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 45px;
+      margin-right: 45px;
+      width: 180px;
+      height: 250px;
+      background-color: white;
+      border: none;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      transition: 1s;
+
+      li {
+        color: black;
+        font-size: 20px;
+        margin-top: 14px;
+        margin-right: 21px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

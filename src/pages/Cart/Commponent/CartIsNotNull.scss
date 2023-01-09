@@ -1,0 +1,24 @@
+@import '../../../styles/variables.scss';
+
+.cartWrapper {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+
+  .cartItemsListWrapper {
+    width: 1000px;
+    min-width: 700px;
+    margin-right: 30px;
+
+    .cartItemsListHeader {
+      padding: 15px 0px;
+      border-top: 1px solid $background-color-darkgrey;
+      border-bottom: 1px solid $background-color-darkgrey;
+    } //리스트 머리
+
+    .cartItemsList {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

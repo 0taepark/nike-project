@@ -1,0 +1,78 @@
+[
+  {
+    "cartId": 101,
+    "userId": 3,
+    "styleCode": "921826-001",
+    "quantity": 1,
+    "productOptionId": 32,
+    "productId": 2,
+    "productName": "나이키 에어맥스 97",
+    "sizeId": 8,
+    "size": "255",
+    "stock": 5,
+    "retailPrice": "199000",
+    "discountPrice": "179100",
+    "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_1.jpg"
+  },
+
+  {
+    "cartId": 99,
+    "userId": 3,
+    "styleCode": "921826-001",
+    "quantity": 1,
+    "productOptionId": 30,
+    "productId": 2,
+    "productName": "나이키 에어맥스 97",
+    "sizeId": 6,
+    "size": "245",
+    "stock": 20,
+    "retailPrice": "199000",
+    "discountPrice": "179100",
+    "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_1.jpg"
+  },
+  {
+    "cartId": 100,
+    "userId": 3,
+    "styleCode": "DM6443-001",
+    "quantity": 1,
+    "productOptionId": 342,
+    "productId": 15,
+    "productName": "나이키 블레이저 로우 x sacai",
+    "sizeId": 6,
+    "size": "245",
+    "stock": 20,
+    "retailPrice": "139000",
+    "discountPrice": "90400",
+    "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/DM6443-001_1.jpg"
+  },
+  {
+    "cartId": 101,
+    "userId": 3,
+    "styleCode": "921826-001",
+    "quantity": 1,
+    "productOptionId": 32,
+    "productId": 2,
+    "productName": "나이키 에어맥스 97",
+    "sizeId": 8,
+    "size": "255",
+    "stock": 5,
+    "retailPrice": "199000",
+    "discountPrice": "",
+    "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-001_1.jpg"
+  },
+  {
+    "cartId": 102,
+    "userId": 3,
+    "styleCode": "921826-101",
+    "quantity": 1,
+    "productOptionId": 23,
+    "productId": 1,
+    "productName": "나이키 에어맥스 97",
+    "sizeId": 23,
+    "size": "350",
+    "stock": 5,
+    "retailPrice": "199000",
+    "discountPrice": "179100",
+    "thumbnail": "https://raw.githubusercontent.com/whrod/1stprojectImages/main/921826-101_1.jpg"
+  }
+]

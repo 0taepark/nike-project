@@ -1,0 +1,119 @@
+@import '/src/styles/variables.scss';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
+
+.navTop {
+  @include flexSort(space-between, center);
+  background-color: black;
+
+  .navTopLeft {
+    width: 200px;
+    height: 80px;
+    margin-left: 70px;
+    background-image: url(../../../public/image/main/logo.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .topLeftImg {
+    width: 100px;
+    height: 50px;
+  }
+
+  .navTopLeftItem {
+    padding: 20px;
+    color: $background-color-black;
+  }
+
+  .navTopRight {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+
+    .navTopRightItem {
+      padding: 20px;
+      color: $background-color-white;
+      font-size: $font-size-lg;
+      &:hover {
+        background-color: $background-color-grey;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.navBottom {
+  @include flexSort(space-between, center);
+  margin: 0 50px;
+
+  .navBottomLeft {
+    display: flex;
+    width: 450px;
+
+    .navBottomLeftItem {
+      padding: 20px;
+      font-weight: $font-weight-title;
+      font-size: 30px;
+      color: $background-color-black;
+    }
+  }
+  .navBottomCenter {
+    display: flex;
+
+    .navBottomCenterItem {
+      display: block;
+      padding: 30px 20px;
+      color: $background-color-black;
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .navBottomRight {
+    @include flexSort(space-between, center);
+    width: 450px;
+
+    .navBottomRightSearch {
+      position: absolute;
+
+      .navBottomRightSearchIcon {
+        padding-left: 10px;
+        font-size: 30px;
+        &:hover {
+          padding: 10px;
+          border-radius: 50%;
+          background-color: lightgrey;
+        }
+      }
+    }
+
+    .navBottomRightInputBar {
+      width: 300px;
+      height: 40px;
+      padding-left: 50px;
+      border: 1px solid white;
+      border-radius: 25px;
+      background-color: $font-color-white;
+      font-size: 24px;
+
+      &:hover {
+        border-radius: 25px;
+        background-color: lightgrey;
+      }
+    }
+
+    .navBottomRightItem {
+      margin-left: 10px;
+      color: $background-color-black;
+      padding: 10px;
+      font-size: 30px;
+
+      &:hover {
+        padding: 10px;
+        border-radius: 50%;
+        background-color: lightgrey;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexSort($justify, $alignItems) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $alignItems;
+}
+
+//Font-color
+$font-color-white: #f5f5f5;
+$font-color-grey: #787878;
+$font-color-black: #111111;
+$font-color-red: #ff6600;
+
+//Font-size
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 16px; /*본문*/
+$font-size-lg: 1.125rem; /*작은제목*/
+$font-size-xl: 1.25rem; /*큰제목*/
+
+//Font-weight
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-title: 900;
+//Background-color
+$background-color-white: #f5f5f5;
+$background-color-grey: rgb(120, 120, 120);
+$background-color-darkgrey: #e5e5e5;
+$background-color-black: #111111;
+
+//Hover
+$hover-opacity: 0.5;
